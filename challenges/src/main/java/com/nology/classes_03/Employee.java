@@ -24,12 +24,22 @@ public class Employee {
      * - yearsEmployed is a integer
      * - completedDeals is a integer
      */
+    public String name;
+    public String position;
+    public int rating;
+    public int yearsEmployed;
+    public int completedDeals;
 
     /**
      * Complete the constructor below to initialize the class and the data to the fields above.
      */
     public Employee(String name, String position, int rating, int yearsEmployed, int completedDeals) {
         // complete the constructor in here
+        this.name = name;
+        this.position = position;
+        this.rating = rating;
+        this.yearsEmployed = yearsEmployed;
+        this.completedDeals = completedDeals;
     }
 
     /**
@@ -40,7 +50,8 @@ public class Employee {
      * @return boolean if employee is promotable
      */
     public boolean isPromotable() {
-        return false;
+
+        return rating > 7;
     }
 
     /**
@@ -51,7 +62,8 @@ public class Employee {
      * @return int average deals per year
      */
     public int calculateDealsPerYear() {
-        return -1;
+        int averageDealsPerYear = completedDeals / yearsEmployed;
+        return  averageDealsPerYear;
     }
 
     /**
@@ -66,6 +78,12 @@ public class Employee {
      * @return boolean if they are eligible for a bonus
      */
     public boolean hasBonusQualification() {
-        return false;
+
+        int averageDealsPerYear = completedDeals / yearsEmployed;
+
+        if (rating <= 8 || averageDealsPerYear < 20) {
+            return false;
+        }
+        return true;
     }
 }

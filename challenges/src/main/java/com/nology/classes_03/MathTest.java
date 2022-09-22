@@ -17,29 +17,29 @@ class MathTest {
     // Testing fields, getters and setters
     // Uncomment the tests below when you have completed the getters
 
-//    @Test
-//    void getPI_ValidFields_ReturnsCorrectNumber() {
-//        double result = math.getPI();
-//        assertEquals(3.141592653589793, result);
-//    }
-//
-//    @Test
-//    void setPI_ValidInput_UpdatesPIField(){
-//        math.setPI(3.14);
-//        double result = math.getPI();
-//        assertEquals(3.14, result);
-//    }
-//
-//    @Test
-//    void setPI_InvalidInputs_DoesNotUpdatePIField(){
-//        math.setPI(3.2);
-//        double overRange = math.getPI();
-//        assertEquals(3.141592653589793, overRange);
-//
-//        math.setPI(3);
-//        double underRange = math.getPI();
-//        assertEquals(3.141592653589793, underRange);
-//    }
+    @Test
+    void getPI_ValidFields_ReturnsCorrectNumber() {
+        double result = math.getPI();
+        assertEquals(3.141592653589793, result);
+    }
+
+    @Test
+    void setPI_ValidInput_UpdatesPIField(){
+        math.setPI(3.14);
+        double result = math.getPI();
+        assertEquals(3.14, result);
+    }
+
+    @Test
+    void setPI_InvalidInputs_DoesNotUpdatePIField(){
+        math.setPI(3.2);
+        double overRange = math.getPI();
+        assertEquals(3.141592653589793, overRange);
+
+        math.setPI(3);
+        double underRange = math.getPI();
+        assertEquals(3.141592653589793, underRange);
+    }
 
     // Testing min
     // Uncomment the tests below when you have completed the min method

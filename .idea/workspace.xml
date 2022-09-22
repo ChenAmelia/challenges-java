@@ -22,7 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a6e4d6c-01b5-4b45-b739-e8892f179ad5" name="Default Changelist" comment="" />
+    <list default="true" id="2a6e4d6c-01b5-4b45-b739-e8892f179ad5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/challenges.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/arraysloops_04/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/arraysloops_04/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Math.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/MathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/MathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/introduction_01/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/introduction_01/Challenge.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +51,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1sLm1KFcLtvJwJ7zLwgS0Hxx9oz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,22 +69,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/challenges" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.30628273" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Administrator/Desktop/JAVA/challenges/java-challenges&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.nology" />
@@ -71,17 +84,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChallengeTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.nology.Main" />
-      <module name="java-challenges" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero">
     <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="java-challenges" />
       <useClassPathOnly />
@@ -100,13 +103,101 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
+      <option name="METHOD_NAME" value="getAmountOfOddNumbers_InvalidNumbers_ReturnsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.getAmountOfOddNumbers_ValidNumbers_ReturnsOnlyOddNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
+      <option name="METHOD_NAME" value="getAmountOfOddNumbers_ValidNumbers_ReturnsOnlyOddNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.getFirstAndLast_InvalidNames_ReturnsEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
+      <option name="METHOD_NAME" value="getFirstAndLast_InvalidNames_ReturnsEmptyArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.totalAges_InvalidAges_ReturnsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
+      <option name="METHOD_NAME" value="totalAges_InvalidAges_ReturnsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.totalAges_ValidAges_ReturnsAmountOfAges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
+      <option name="METHOD_NAME" value="totalAges_ValidAges_ReturnsAmountOfAges" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ChallengeTest" />
+      <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero" />
+      <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_ValidNumbers_ReturnsOnlyOddNumbers" />
+      <item itemvalue="JUnit.ChallengeTest.getFirstAndLast_InvalidNames_ReturnsEmptyArray" />
+      <item itemvalue="JUnit.ChallengeTest.totalAges_InvalidAges_ReturnsZero" />
+      <item itemvalue="JUnit.ChallengeTest.totalAges_ValidAges_ReturnsAmountOfAges" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero" />
+        <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_ValidNumbers_ReturnsOnlyOddNumbers" />
+        <item itemvalue="JUnit.ChallengeTest.totalAges_InvalidAges_ReturnsZero" />
+        <item itemvalue="JUnit.ChallengeTest.totalAges_ValidAges_ReturnsAmountOfAges" />
+        <item itemvalue="JUnit.ChallengeTest.getFirstAndLast_InvalidNames_ReturnsEmptyArray" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +222,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -140,6 +230,15 @@
           <properties class="java.lang.ClassNotFoundException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/ChallengeTest.java</url>
+          <line>120</line>
+          <properties class="com.nology.controlflow_02.ChallengeTest" method="shouldWakeUp_InvalidInput_ReturnsFalseBeforeEightNotBarking">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -20,7 +20,8 @@ public class Challenge {
      * @return returns a string which is the concatenation of the 2 parameters
      */
     public String getFullName(String firstName, String lastName) {
-        return "";
+
+        return firstName + " " + lastName;
     }
 
     /***
@@ -31,9 +32,8 @@ public class Challenge {
      * @return returns a boolean based on whether the number is between 0 and the range limit
      */
     public boolean isWithinRange(int number, int rangeLimit) {
-        return false;
+        return number >= 0 && number <= rangeLimit;
     }
-
 
     /***
      * Write a method that takes two numbers and an operator. Based on the operator preform the
@@ -50,8 +50,52 @@ public class Challenge {
      * @return returns the result of the equation
      */
     public int stringCalculator(int numberOne, int numberTwo, String operator) {
-        return -1;
+        if(numberOne < 1 || numberTwo < 1) {
+            return -1;
+        }
+
+        int result = 0;
+
+        switch (operator) {
+            case "*" :
+                result = numberOne * numberTwo;
+                break;
+            case "/" :
+                result = numberOne / numberTwo;
+                break;
+            case "+" :
+                result = numberOne + numberTwo;
+                break;
+            case "-" :
+                result = numberOne - numberTwo;
+                break;
+            default:
+                result = -1;
+        }
+        return result;
+
     }
+
+     /*
+        if (numberOne < 0 || numberTwo < 0) {
+            return -1;
+        } else if (numberOne > 0 && numberTwo > 0) {
+            int result = 0;
+            if (operator == "*") {
+                return result = numberOne + numberTwo;
+            } else if (operator == "/") {
+                return result = numberOne / numberTwo;
+            } else if (operator == "+") {
+                return result = numberOne + numberTwo;
+            } else if (operator == "-") {
+                return result = numberOne - numberTwo;
+            } else {
+                return result = -1;
+            }
+        }
+        return result;
+
+         */
 
 
     // -------------- INTERMEDIATE --------------
@@ -70,7 +114,13 @@ public class Challenge {
      * @return If we need to wake up or not based on the conditions above.
      */
     public boolean shouldWakeUp(boolean barking, int hourOfDay) {
-        return false;
+
+        if (hourOfDay > 24) {
+            return false;
+        } else if (barking && hourOfDay>=8 || hourOfDay<=22) {
+            return false;
+        }
+        return (barking && hourOfDay < 8 || hourOfDay > 22);
     }
 
     /***
@@ -83,9 +133,30 @@ public class Challenge {
      * character in the string: a"
      */
     public String getMiddleCharacter(String word) {
-        return "";
-    }
+        //如果词语中包含空格，也就是说把名字分开了，或者名字是空串，那么就返回invalid input
+        if(word.contains(" ") || word.equals("")) {
+            return "Invalid Input";
+        }
+        /*
+        先定义两个值，一个是要取字母的位置，position；另一个是取字母的长度，length
+        如果word里面包含的是偶数个字母，那么就要取中间位置的两个，并且要取长度为2
+        如果字母中包含的字母是奇数个，那么就取最中间的一个，长度为1
+        取值的时候要用String.substring(int beginIndex, int endIndex)的方法
+        beginIndex就是position数字，position算到几就从哪里开始取；然后给position加上length就是终止位置
+        */
+        int position;
+        int length;
 
+        if(word.length() % 2 == 0) {
+            position = word.length() / 2 -1;
+            length = 2;
+        } else {
+            position = word.length() / 2;
+            length  = 1;
+        }
+        return word.substring(position, position+length);
+
+    }
 
     /***
      * Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int.
@@ -99,7 +170,17 @@ public class Challenge {
      * @return returns a string in the format above if the input is valid, or "Invalid value"
      */
     public String printMegaBytesAndKiloBytes(int kiloBytes) {
-        return "";
+        if(kiloBytes <= 0) {
+            return "Invalid Value";
+        }
+
+        int getMB;
+        int getKB;
+
+        getMB = kiloBytes / 1024;
+        getKB = kiloBytes % 1024;
+
+        return kiloBytes + " KB = " + getMB + " MB and " + getKB + " KB";
     }
 
     // -------------- ADVANCED --------------
@@ -121,6 +202,20 @@ public class Challenge {
      * @return returns the total amount after x number of years (including the initial investment)
      */
     public String calculateReturn(int initialInvestment, int years, double rateOfInterest) {
-        return "";
+
+        if(initialInvestment <= 0) {
+            return "Invalid investment";
+        } else if (years <= 0) {
+            return "Invalid years";
+        } else if (rateOfInterest < 0 || rateOfInterest == 1) {
+            return "Invalid rate of interest";
+        }
+
+        double rate = 1 + rateOfInterest;
+        double square = Math.pow(rate, years);
+        double result = initialInvestment * square;
+        long intResult = Math.round(result);
+
+        return "You now have " + intResult;
     }
 }
