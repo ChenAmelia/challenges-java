@@ -24,16 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a6e4d6c-01b5-4b45-b739-e8892f179ad5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/challenges.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/arraysloops_04/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/arraysloops_04/Challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/MathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/classes_03/MathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/controlflow_02/Challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/src/main/java/com/nology/introduction_01/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/src/main/java/com/nology/introduction_01/Challenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero">
+  <component name="RunManager" selected="JUnit.ChallengeTest.getRange_ValidInput_ReturnsValidRange">
     <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="java-challenges" />
       <useClassPathOnly />
@@ -135,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChallengeTest.getFirstAndLast_InvalidNames_ReturnsEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengeTest.getRange_ValidInput_ReturnsValidRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenges" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +136,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
       <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
-      <option name="METHOD_NAME" value="getFirstAndLast_InvalidNames_ReturnsEmptyArray" />
+      <option name="METHOD_NAME" value="getRange_ValidInput_ReturnsValidRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.isHighestScore_EmptyScores_ReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
+      <option name="METHOD_NAME" value="isHighestScore_EmptyScores_ReturnsTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,37 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChallengeTest.totalAges_ValidAges_ReturnsAmountOfAges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nology.arraysloops_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nology.arraysloops_04" />
-      <option name="MAIN_CLASS_NAME" value="com.nology.arraysloops_04.ChallengeTest" />
-      <option name="METHOD_NAME" value="totalAges_ValidAges_ReturnsAmountOfAges" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.ChallengeTest" />
       <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero" />
       <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_ValidNumbers_ReturnsOnlyOddNumbers" />
-      <item itemvalue="JUnit.ChallengeTest.getFirstAndLast_InvalidNames_ReturnsEmptyArray" />
+      <item itemvalue="JUnit.ChallengeTest.getRange_ValidInput_ReturnsValidRange" />
+      <item itemvalue="JUnit.ChallengeTest.isHighestScore_EmptyScores_ReturnsTrue" />
       <item itemvalue="JUnit.ChallengeTest.totalAges_InvalidAges_ReturnsZero" />
-      <item itemvalue="JUnit.ChallengeTest.totalAges_ValidAges_ReturnsAmountOfAges" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChallengeTest.getRange_ValidInput_ReturnsValidRange" />
         <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_InvalidNumbers_ReturnsZero" />
+        <item itemvalue="JUnit.ChallengeTest.isHighestScore_EmptyScores_ReturnsTrue" />
         <item itemvalue="JUnit.ChallengeTest.getAmountOfOddNumbers_ValidNumbers_ReturnsOnlyOddNumbers" />
         <item itemvalue="JUnit.ChallengeTest.totalAges_InvalidAges_ReturnsZero" />
-        <item itemvalue="JUnit.ChallengeTest.totalAges_ValidAges_ReturnsAmountOfAges" />
-        <item itemvalue="JUnit.ChallengeTest.getFirstAndLast_InvalidNames_ReturnsEmptyArray" />
       </list>
     </recent_temporary>
   </component>

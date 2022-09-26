@@ -1,5 +1,7 @@
 package com.nology.arraysloops_04;
 
+
+
 /**
  *   All challenges in this repository are separated into three levels: Foundation, Intermediate, and Advanced.
  *   The expectation is to complete all Foundation level challenges, with Intermediate and upwards pushing your knowledge
@@ -70,7 +72,16 @@ public class Challenge {
      * @return a new array of all numbers between and including the min and max number. e.g. [3, 4, 5, 6]
      */
     public int[] getRange(int min, int max) {
-        return new int[] {};
+        if(min > max) {
+            return new int[]{};
+        }
+        int length = max - min + 1;
+        int[] result = new int[length];
+
+        for(int i = 0; i < length; i++) {
+            result[i] = min + i;
+        }
+        return result;
     }
 
     /**
